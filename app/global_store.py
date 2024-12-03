@@ -1,4 +1,2 @@
-# app/global_store.py
-
-# A global dictionary to store uploaded data
-data_store = {}
+# global_store.py
+data_store = {}  # Shared dictionary for storing file-related data

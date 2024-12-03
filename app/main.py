@@ -1,12 +1,9 @@
 from fastapi import FastAPI
-from app.routes import analytics, visualize
+from app.routes.analytics import router as analytics_router
+from app.routes.visualize import router as visualize_router
 
 app = FastAPI()
 
-# Include the routers
-app.include_router(analytics.router, prefix="/analytics", tags=["Analytics"])
-app.include_router(visualize.router, prefix="/visualize", tags=["Visualization"])
-
-@app.get("/")
-def read_root():
-    return {"message": "Welcome to Universal Analytics API"}
+# Include routers
+app.include_router(analytics_router, prefix="/analytics")
+app.include_router(visualize_router, prefix="/visualize")
