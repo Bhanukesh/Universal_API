@@ -1,12 +1,8 @@
 from fastapi import APIRouter, File, UploadFile
 import pandas as pd
-
-from app.routes.analytics import data_store
+from app.global_store import data_store  # Import data_store from global_store
 
 router = APIRouter()
-
-# Ensure data_store is properly defined
-data_store = {}
 
 @router.post("/upload-data")
 async def upload_data(file: UploadFile = File(...)):

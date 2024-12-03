@@ -1,0 +1,101 @@
+Prompt ID,Prompt Text,Sentiment,Complexity,Response Length,Response Time (s),Prompt Category,Usefulness Rating,Assistant Emotion,Feedback Sentiment,Interaction Date,Word Count
+1,Sample prompt text 1,Neutral,High,410,1.21,Personal,1,Calm,Negative,28-04-2024,37
+2,Sample prompt text 2,Neutral,High,278,5.85,General Knowledge,1,Calm,Neutral,08-07-2024,5
+3,Sample prompt text 3,Positive,Medium,343,8.22,Personal,1,Calm,Neutral,03-06-2024,47
+4,Sample prompt text 4,Positive,High,373,4.44,General Knowledge,4,Calm,Positive,05-10-2024,37
+5,Sample prompt text 5,Negative,High,281,7.69,Coding,4,Excited,Neutral,02-09-2024,19
+6,Sample prompt text 6,Positive,Medium,447,5.23,AI,4,Excited,Neutral,03-07-2024,11
+7,Sample prompt text 7,Positive,Medium,184,8.79,Personal,2,Calm,Neutral,03-05-2024,33
+8,Sample prompt text 8,Neutral,Low,57,4.68,Personal,5,Calm,Negative,30-11-2024,44
+9,Sample prompt text 9,Negative,Medium,230,6.56,Coding,1,Excited,Positive,05-11-2024,13
+10,Sample prompt text 10,Positive,High,329,3.63,Coding,4,Excited,Positive,10-05-2024,38
+11,Sample prompt text 11,Negative,Low,162,3.67,General Knowledge,2,Focused,Negative,17-07-2024,21
+12,Sample prompt text 12,Negative,High,336,5.66,Healthcare,4,Focused,Positive,25-04-2024,34
+13,Sample prompt text 13,Neutral,Medium,333,4.45,AI,1,Focused,Positive,23-11-2024,24
+14,Sample prompt text 14,Positive,Medium,411,9.3,General Knowledge,4,Excited,Positive,26-11-2024,11
+15,Sample prompt text 15,Positive,Low,397,3.72,Healthcare,3,Neutral,Positive,15-09-2024,31
+16,Sample prompt text 16,Negative,Low,164,3.4,Healthcare,2,Calm,Negative,18-03-2024,20
+17,Sample prompt text 17,Neutral,High,474,6.37,AI,5,Neutral,Negative,07-08-2024,33
+18,Sample prompt text 18,Positive,Medium,344,6.29,Healthcare,5,Focused,Neutral,01-06-2024,38
+19,Sample prompt text 19,Negative,Medium,389,7.13,AI,2,Neutral,Negative,20-04-2024,36
+20,Sample prompt text 20,Neutral,Low,369,3.01,AI,4,Excited,Positive,30-09-2024,22
+21,Sample prompt text 21,Negative,High,404,1.61,General Knowledge,4,Neutral,Positive,03-02-2024,8
+22,Sample prompt text 22,Positive,Medium,126,5.61,Personal,1,Calm,Neutral,02-10-2024,20
+23,Sample prompt text 23,Negative,Low,243,6.51,General Knowledge,2,Neutral,Positive,05-10-2024,22
+24,Sample prompt text 24,Negative,High,57,2.67,Healthcare,1,Focused,Negative,24-08-2024,26
+25,Sample prompt text 25,Positive,Low,230,10,General Knowledge,2,Neutral,Neutral,26-11-2024,44
+26,Sample prompt text 26,Neutral,High,405,7.04,Coding,5,Excited,Negative,26-04-2024,10
+27,Sample prompt text 27,Positive,Medium,251,5.89,General Knowledge,1,Neutral,Negative,30-06-2024,17
+28,Sample prompt text 28,Negative,High,258,9.31,Coding,3,Focused,Positive,20-08-2024,8
+29,Sample prompt text 29,Positive,High,193,2.5,General Knowledge,5,Focused,Neutral,12-07-2024,30
+30,Sample prompt text 30,Positive,Low,198,1.24,AI,1,Neutral,Positive,26-10-2024,45
+31,Sample prompt text 31,Positive,High,129,3.66,General Knowledge,1,Calm,Neutral,01-09-2024,30
+32,Sample prompt text 32,Negative,High,341,1.9,Coding,1,Excited,Negative,30-08-2024,42
+33,Sample prompt text 33,Neutral,High,271,2.02,Healthcare,2,Neutral,Negative,16-04-2024,32
+34,Sample prompt text 34,Neutral,Low,260,7.91,Personal,1,Calm,Positive,12-05-2024,46
+35,Sample prompt text 35,Neutral,High,160,8.72,Personal,1,Focused,Negative,27-09-2024,42
+36,Sample prompt text 36,Neutral,High,145,1.24,AI,4,Focused,Negative,09-07-2024,45
+37,Sample prompt text 37,Neutral,Low,159,6.06,General Knowledge,3,Calm,Neutral,28-02-2024,23
+38,Sample prompt text 38,Positive,Low,322,2.26,Personal,2,Neutral,Positive,26-03-2024,43
+39,Sample prompt text 39,Neutral,Low,402,2.19,Healthcare,3,Calm,Negative,29-01-2024,44
+40,Sample prompt text 40,Positive,Low,428,2.66,Coding,1,Focused,Negative,03-02-2024,10
+41,Sample prompt text 41,Negative,Low,147,5.19,Coding,3,Calm,Positive,01-07-2024,41
+42,Sample prompt text 42,Positive,Medium,149,3.6,Coding,5,Excited,Positive,27-03-2024,41
+43,Sample prompt text 43,Neutral,High,155,4.93,General Knowledge,1,Focused,Positive,10-10-2024,41
+44,Sample prompt text 44,Positive,Medium,435,1.11,Healthcare,3,Excited,Negative,20-03-2024,11
+45,Sample prompt text 45,Negative,High,282,2.06,Healthcare,3,Neutral,Negative,04-07-2024,30
+46,Sample prompt text 46,Negative,High,473,2.21,AI,2,Calm,Positive,17-12-2023,34
+47,Sample prompt text 47,Neutral,Medium,267,5.61,AI,3,Calm,Negative,01-12-2024,21
+48,Sample prompt text 48,Neutral,Medium,123,5.93,General Knowledge,4,Calm,Negative,01-11-2024,10
+49,Sample prompt text 49,Negative,High,347,6.66,AI,4,Calm,Negative,02-01-2024,46
+50,Sample prompt text 50,Neutral,Medium,333,6.44,General Knowledge,5,Focused,Positive,23-08-2024,37
+51,Sample prompt text 51,Negative,Medium,403,8.55,AI,3,Focused,Positive,04-04-2024,47
+52,Sample prompt text 52,Negative,Medium,342,9.7,Coding,5,Calm,Neutral,10-11-2024,15
+53,Sample prompt text 53,Negative,High,402,6.52,Coding,1,Neutral,Neutral,30-03-2024,41
+54,Sample prompt text 54,Negative,Medium,209,7.48,Healthcare,1,Neutral,Negative,17-03-2024,29
+55,Sample prompt text 55,Negative,Low,213,3.85,AI,4,Focused,Positive,08-03-2024,9
+56,Sample prompt text 56,Negative,Medium,144,5.05,AI,3,Excited,Positive,08-06-2024,20
+57,Sample prompt text 57,Negative,High,164,6.4,Coding,1,Neutral,Negative,12-08-2024,32
+58,Sample prompt text 58,Positive,Low,348,3.2,Personal,2,Focused,Negative,07-10-2024,24
+59,Sample prompt text 59,Neutral,Low,98,7.23,General Knowledge,1,Excited,Negative,10-11-2024,50
+60,Sample prompt text 60,Negative,Medium,159,1.63,General Knowledge,5,Neutral,Positive,02-08-2024,25
+61,Sample prompt text 61,Neutral,High,215,2.96,Personal,3,Excited,Negative,26-12-2023,27
+62,Sample prompt text 62,Negative,High,384,5.68,Coding,2,Neutral,Negative,08-01-2024,48
+63,Sample prompt text 63,Negative,Low,431,2.09,Personal,1,Calm,Neutral,24-03-2024,35
+64,Sample prompt text 64,Negative,Low,135,2.56,General Knowledge,2,Focused,Neutral,10-05-2024,46
+65,Sample prompt text 65,Positive,High,316,9.76,Coding,5,Calm,Negative,30-04-2024,10
+66,Sample prompt text 66,Positive,Low,251,2.14,Healthcare,5,Excited,Positive,14-07-2024,25
+67,Sample prompt text 67,Positive,Low,491,1.92,Healthcare,4,Neutral,Negative,30-09-2024,46
+68,Sample prompt text 68,Neutral,Low,242,1.01,AI,1,Neutral,Negative,15-08-2024,18
+69,Sample prompt text 69,Neutral,Medium,143,5.25,Personal,2,Excited,Neutral,12-01-2024,17
+70,Sample prompt text 70,Positive,High,356,7.06,Healthcare,3,Calm,Negative,13-12-2023,21
+71,Sample prompt text 71,Positive,Medium,182,3.85,Coding,3,Excited,Positive,14-08-2024,6
+72,Sample prompt text 72,Negative,High,461,7.52,Personal,4,Excited,Positive,28-01-2024,45
+73,Sample prompt text 73,Neutral,Low,159,5.75,Coding,4,Neutral,Negative,23-10-2024,29
+74,Sample prompt text 74,Neutral,Low,263,6.68,Coding,1,Calm,Negative,05-01-2024,45
+75,Sample prompt text 75,Positive,Medium,355,8.84,General Knowledge,4,Focused,Negative,19-05-2024,41
+76,Sample prompt text 76,Neutral,Low,125,2.31,Healthcare,4,Neutral,Neutral,12-06-2024,18
+77,Sample prompt text 77,Neutral,High,85,2.59,Personal,4,Focused,Negative,29-06-2024,32
+78,Sample prompt text 78,Negative,Medium,154,7.88,Personal,3,Excited,Negative,11-09-2024,13
+79,Sample prompt text 79,Positive,Low,362,9.82,Healthcare,2,Calm,Negative,28-11-2024,12
+80,Sample prompt text 80,Negative,Low,500,9.33,Coding,3,Neutral,Negative,29-03-2024,16
+81,Sample prompt text 81,Positive,High,331,4.67,Healthcare,4,Calm,Neutral,22-10-2024,28
+82,Sample prompt text 82,Neutral,Low,156,2.58,Healthcare,5,Excited,Negative,13-02-2024,25
+83,Sample prompt text 83,Positive,High,393,3.04,General Knowledge,5,Calm,Neutral,21-06-2024,27
+84,Sample prompt text 84,Neutral,High,453,6.52,General Knowledge,4,Calm,Negative,13-11-2024,33
+85,Sample prompt text 85,Neutral,High,433,5.25,Coding,4,Focused,Negative,28-08-2024,15
+86,Sample prompt text 86,Negative,Low,102,9.3,AI,2,Neutral,Neutral,20-02-2024,44
+87,Sample prompt text 87,Positive,Medium,194,1.76,Personal,2,Focused,Negative,27-02-2024,39
+88,Sample prompt text 88,Neutral,Medium,376,4.99,General Knowledge,1,Calm,Negative,15-03-2024,22
+89,Sample prompt text 89,Negative,Medium,415,2.84,Personal,1,Focused,Neutral,25-07-2024,19
+90,Sample prompt text 90,Negative,High,150,5.23,General Knowledge,3,Calm,Neutral,06-02-2024,25
+91,Sample prompt text 91,Positive,Low,113,3.87,Personal,1,Neutral,Negative,18-05-2024,48
+92,Sample prompt text 92,Positive,High,165,1.29,Coding,1,Calm,Positive,16-07-2024,23
+93,Sample prompt text 93,Positive,Medium,102,2.5,Personal,2,Neutral,Positive,18-12-2023,30
+94,Sample prompt text 94,Negative,Medium,179,9.74,Coding,5,Focused,Negative,20-01-2024,13
+95,Sample prompt text 95,Neutral,Low,363,1.72,AI,2,Calm,Positive,30-03-2024,28
+96,Sample prompt text 96,Neutral,Medium,212,9.66,General Knowledge,2,Neutral,Neutral,25-04-2024,29
+97,Sample prompt text 97,Positive,High,317,3.9,Healthcare,4,Neutral,Positive,08-03-2024,10
+98,Sample prompt text 98,Positive,High,449,5.77,AI,5,Calm,Positive,09-07-2024,26
+99,Sample prompt text 99,Positive,Low,154,3.96,Personal,3,Excited,Positive,30-10-2024,49
+100,Sample prompt text 100,Neutral,Low,293,7.32,Personal,3,Excited,Negative,17-12-2023,5

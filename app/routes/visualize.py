@@ -1,7 +1,7 @@
 import os
 import matplotlib.pyplot as plt
-from fastapi import APIRouter, Query
-from typing import Optional
+from fastapi import APIRouter
+from app.routes.analytics import data_store  # Import the shared data_store
 
 router = APIRouter()
 
@@ -22,7 +22,7 @@ async def bar_chart(column: str, filename: str):
 
         # Generate bar chart
         counts = df[column].value_counts()
-        chart_path = "bar_chart.png"  # Define the chart_path
+        chart_path = "bar_chart.png"
         counts.plot(kind='bar', title=f"Distribution of {column}")
         plt.savefig(chart_path)
         plt.close()
