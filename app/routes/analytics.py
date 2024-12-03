@@ -1,6 +1,8 @@
 from fastapi import APIRouter, File, UploadFile
 import pandas as pd
 
+from app.routes.analytics import data_store
+
 router = APIRouter()
 
 # Ensure data_store is properly defined
