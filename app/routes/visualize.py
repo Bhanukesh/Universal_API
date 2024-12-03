@@ -1,30 +1,34 @@
-from fastapi import APIRouter, HTTPException
-from fastapi.responses import FileResponse
-import matplotlib.pyplot as plt
 import os
+import matplotlib.pyplot as plt
+from fastapi import APIRouter, Query
+from typing import Optional
 
 router = APIRouter()
 
 @router.get("/bar-chart")
 async def bar_chart(column: str, filename: str):
     try:
+        # Retrieve DataFrame
         df = data_store.get(filename)
         if df is None:
-            raise HTTPException(status_code=404, detail="File not found")
+            return {"error": f"File '{filename}' not found in the data store"}
+        
         if column not in df.columns:
-            raise HTTPException(status_code=400, detail=f"Column '{column}' not found")
+            return {"error": f"Column '{column}' not found. Available columns: {df.columns.tolist()}"}
 
-        chart_path = f"{filename}_bar_chart.png"
-        plt.bar(df[column].value_counts().index, df[column].value_counts().values)
-        plt.title(f"Bar Chart of {column}")
-        plt.xlabel(column)
-        plt.ylabel("Frequency")
+        # Ensure the column is categorical
+        if df[column].dtype not in ['object', 'category']:
+            return {"error": f"Column '{column}' must be categorical for bar chart"}
+
+        # Generate bar chart
+        counts = df[column].value_counts()
+        chart_path = "bar_chart.png"  # Define the chart_path
+        counts.plot(kind='bar', title=f"Distribution of {column}")
         plt.savefig(chart_path)
         plt.close()
 
-        return FileResponse(chart_path, media_type="image/png")
+        # Return the path of the saved chart
+        return {"message": f"Bar chart for column '{column}' generated successfully", "chart_path": chart_path}
     except Exception as e:
+        print(f"Error: {e}")
         return {"error": str(e)}
-    finally:
-        if os.path.exists(chart_path):
-            os.remove(chart_path)
